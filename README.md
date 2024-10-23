@@ -1,6 +1,6 @@
 # DQN-CNN-Pong-Agent
 
-This model uses the Gymnasium library to create the Atari game environment and PyTorch for building and training the neural network. 
+This model uses the Gymnasium library to create the Atari game environment and PyTorch for building and training the neural network. The left paddle is following the y position of the puck, while the right one is the implementaion of our DQN agent.
 
 ![result](https://github.com/user-attachments/assets/7ebc4c2f-aa6e-4924-add6-2afab10b9056)
 
