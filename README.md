@@ -24,6 +24,9 @@ The output of the convolutional layers is flattened using x.reshape(x.size(0), -
 
 # Results
 
+
+Refer to the .mp4 file to observe the DQN's performance.
+
 First Run
 
 • BATCH SIZE = 8: Chosen small due to limited computational resources.
