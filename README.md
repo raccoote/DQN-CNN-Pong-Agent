@@ -2,13 +2,18 @@
 
 This model uses the Gymnasium library to create the Atari game environment and PyTorch for building and training the neural network. 
 
-![image](https://github.com/user-attachments/assets/127f83cf-deb9-44c8-a8f0-c096d5a85ccd)
+![result](https://github.com/user-attachments/assets/7ebc4c2f-aa6e-4924-add6-2afab10b9056)
 
 In this PONGAtari implementation, RGB images are used as input, each with 3 color channels, a height of 210 pixels, and a width of 160 pixels.
 
 The first convolutional layer has 32 filters (8x8 kernel, stride 4, padding 2) followed by ReLU. The second layer has 64 filters (4x4 kernel, stride 2, padding 1), also followed by ReLU. The third layer uses 64 filters (3x3 kernel, stride 1, padding 1) with ReLU.
 
 The output of the convolutional layers is flattened using x.reshape(x.size(0), -1) before passing to fully connected layers, which predict the agent's actions based on the extracted features. Pong has 3 discrete actions: UP, DOWN, and NOOP (no operation). The first fully connected layer has 512 neurons with ReLU, and the second layer outputs the final action predictions.
+
+
+
+![image](https://github.com/user-attachments/assets/127f83cf-deb9-44c8-a8f0-c096d5a85ccd)
+
 
 
 
@@ -22,10 +27,9 @@ The output of the convolutional layers is flattened using x.reshape(x.size(0), -
 
 
 
-# Results
+# Hyperparameters
 
 
-Refer to the .mp4 file to observe the DQN's performance.
 
 First Run
 
