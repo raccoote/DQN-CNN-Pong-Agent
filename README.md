@@ -4,7 +4,7 @@ This model uses the Gymnasium library to create the Atari game environment and P
 
 ![result](https://github.com/user-attachments/assets/7ebc4c2f-aa6e-4924-add6-2afab10b9056)
 
-In this PONGAtari implementation, RGB images are used as input, each with 3 color channels, a height of 210 pixels, and a width of 160 pixels.
+Atari RGB images are used as input, each with 3 color channels, a height of 210 pixels, and a width of 160 pixels.
 
 The first convolutional layer has 32 filters (8x8 kernel, stride 4, padding 2) followed by ReLU. The second layer has 64 filters (4x4 kernel, stride 2, padding 1), also followed by ReLU. The third layer uses 64 filters (3x3 kernel, stride 1, padding 1) with ReLU.
 
